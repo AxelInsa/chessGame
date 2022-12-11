@@ -1,0 +1,16 @@
+{
+    "Lua.diagnostics.globals": [
+        "love",
+        "lfs"
+    ],
+    "Lua.diagnostics.disable": [
+        "lowercase-global",
+        "undefined-field",
+        "redundant-parameter"
+    ],
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library",
+        "${3rd}/lfs/library"
+    ]
+}
